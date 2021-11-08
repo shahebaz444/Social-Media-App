@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 import SinglePost from './Pages/SinglePost'
 import MenuBar from "./Components/MenuBar";
 import {AuthProvider} from './Context/auth';
-import AuthRoute from "./Context/AuthRoute";
+// import AuthRoute from "./Context/AuthRoute";
 
 function App() {
   return (
