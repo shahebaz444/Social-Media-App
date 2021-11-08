@@ -17,8 +17,8 @@ function App() {
         <MenuBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <AuthRoute exact path='/login' element={<Login />} />
-          <AuthRoute exact path='/register' element={<Register />} />
+          <Route exact path='/login' element={<Login />} />
+          <Route exact path='/register' element={<Register />} />
           <Route exact path='/posts/:postId' element={<SinglePost />} />
         </Routes>
         </div>
